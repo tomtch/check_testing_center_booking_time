@@ -49,7 +49,7 @@ def print_time_slots(response):
         timeslots_msgs.append(timeslots_msg)
     return timeslots_msgs
 
-bot = telebot.TeleBot('5133395491:AAGONhybrF_XR3DscEDBRLUuegSRVGsHaQo', parse_mode=None)
+bot = telebot.TeleBot('', parse_mode=None)
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
